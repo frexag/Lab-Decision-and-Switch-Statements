@@ -66,6 +66,8 @@ int main()
 			cin >> a >> b;
 			if (b == 0) {
 				cout << "Error: Cannot Divide by zero" << endl;
+			else if (a == 0) {
+				cout << "Error: Cannot Divide by zero" << endl;
 			}
 			else {
 				cout << "The quotient is " << (a / b) << endl;
